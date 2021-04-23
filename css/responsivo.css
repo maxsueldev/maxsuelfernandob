@@ -1,0 +1,204 @@
+@media only screen and (min-width: 960px) and (max-width: 1160px) {
+
+.skills img.angular {
+  padding-left: 160px;
+}
+
+.skills img.database {
+  padding-right: 160px;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+.skills img.angular {
+  padding-left: 140px;
+}
+
+.skills img.database {
+  padding-right: 140px;
+}
+
+}
+
+@media only screen and (max-width: 767px) {
+
+/* Geral */
+
+h1 {
+	font-size: 32px;
+	line-height: 35px;
+}
+
+h2 {
+	font-size: 24px;
+	line-height: 30px;
+}
+
+h3 {
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.title_section {
+  margin-top: 19px;
+  margin-bottom: 5px;
+}
+
+hr.separador { 
+  margin: 25px 0 35px 0;
+}
+
+/* Intro */
+
+.intro {
+	background: url('../img/intro/intro-mobile.png') no-repeat center;
+	background-size: cover;
+	min-height: 0;
+}
+
+.content-intro {
+	top: 23%;
+}
+
+.content-intro h3 {
+  padding: 0;
+}
+
+.redes-sociais {
+  margin-bottom: 80px;
+}
+
+.intro .social-logo:hover {
+	background-color: transparent;
+}
+
+.call-contato:hover {
+  font-weight: normal;
+  box-shadow: none;
+  outline-color: none;
+  outline-offset: 0;
+  text-shadow: none; 
+}
+
+.content-intro h3 {
+    /*margin: 0 auto;*/
+    border-right: none;
+    white-space: normal;
+    overflow: hidden;
+    transform: none;
+}
+
+.anim-typewriter{
+	animation: none;
+}
+
+.mouse {
+	display: none;
+}
+
+/* Sobre */
+
+.sobre {
+	padding: 30px 0;
+}
+
+.maxsuel_img {
+	text-align: center;
+}
+
+.maxsuelfernando {
+	width: 200px;
+	height: 200px;
+	padding-top: 20px;
+}
+
+/* Skills */
+
+.skills {
+  padding: 30px 0;
+}
+
+.skills img.angular {
+  padding-left: 0;
+}
+
+.skills img.database {
+  padding-right: 0;
+}
+
+.skills .column3, .skills .column4 {
+	width: 32px;
+	padding: 0 5px;
+}
+
+.skills img.php {
+	height: 28px;
+	margin-top: 3px;
+}
+
+.skills img {
+	float: left;
+}
+
+/* Servicos */
+
+.servicos {
+	padding: 30px 0;
+}
+
+.servicos img {
+	width: 45%;
+	height: 45%;
+}
+
+/* Portfolio */
+
+.portfolio {
+	padding: 30px 0;
+}
+
+.portfolio .pjt_title {
+  margin-bottom: 25px;
+}
+
+.portfolio .text-center .templates {
+  margin-top: 20px;
+}
+
+.portfolio img {
+	width: 80%;
+	height: 80%;
+}
+
+/* Contato */
+
+.contato {
+	padding: 30px 0;
+}
+
+.contato button:hover {
+  box-shadow: none;
+  outline-offset: 0;
+  text-shadow: none; 
+}
+
+.form input { 
+  width: 90%;
+  padding: 7px 14px;
+}
+
+.form textarea {
+  width: 90%;
+  padding: 7px 14px 20px 14px;
+  float: none;
+}
+
+/* Footer */
+
+.footer img:hover {
+  background-color: #092140;
+}
+
+}

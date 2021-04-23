@@ -1,0 +1,77 @@
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro';
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	background: url("../img/intro.png") no-repeat fixed top;
+	background-size: cover;
+}
+
+header {
+	padding-top: 50px;
+}
+
+.nav-header a {
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #060404;
+	padding-right: 55px;
+	float: left;
+}
+
+.nav-content {
+	padding-top: 1px;
+	text-align: right;
+}
+
+.nav-content ul li {
+	display: inline-block;
+	padding-left: 40px;
+}
+
+.nav-content ul li a {
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .04em;
+	color: #060404;
+	padding: 15px 0 5px 0;
+}
+
+.nav-content ul li a:hover {
+	border-bottom: 3px solid #060404;
+}
+
+.content {
+	text-align: center;
+}
+
+.titulo {
+	padding-top: 180px;
+}
+
+.subtitulo {
+	padding-top: 5px;
+	padding-bottom: 30px;
+}
+
+h1 {
+	font-size: 60px;
+	color: #060404;
+}
+
+h2 {
+	font-size: 16px;
+	color: #060404;
+}
+
+.view {
+	padding: 6px 50px;
+	border: 2px solid #060404;
+	border-radius: 10px;
+	background: none;
+	color: #060404;
+}
+
+.view:hover {
+	background: #D3A200;
+}

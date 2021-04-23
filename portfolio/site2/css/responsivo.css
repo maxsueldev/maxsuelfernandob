@@ -1,0 +1,40 @@
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+
+
+}
+
+@media only screen and (max-width: 767px) {
+
+body {
+	background: url("../img/intro-mobile.png") no-repeat fixed top;
+	background-size: cover;
+}
+
+nav {
+	padding-top: 18px;
+}
+
+.nav-content ul li {
+	display: block;
+	padding-left: 10px;
+	padding-bottom: 15px;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+.titulo {
+	padding-top: 60px;
+	margin-bottom: 15px;
+}
+
+h2 {
+	font-size: 14px;
+	line-height: 20px;
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+}

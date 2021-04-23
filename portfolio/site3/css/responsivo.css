@@ -1,0 +1,141 @@
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+/* Products */
+
+.products img {
+	width: 236px;
+	height: 236px;
+}
+
+/* About */
+
+.about {
+	padding: 50px 0;
+}
+
+.titulo-about {
+	padding-bottom: 40px;
+}
+
+.about p {
+	max-width: 750px;
+	margin: 0 auto;
+}
+
+}
+
+@media only screen and (max-width: 767px) {
+
+/* Geral */
+
+h1 {
+	font-size: 80px;
+	font-weight: bold;
+	letter-spacing: 0px;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: 0;	
+}
+
+/* Header */
+
+.menu {
+	display: block;
+	cursor: pointer;
+}
+
+.nav-menu ul {
+	display: none;
+}
+
+.showing {
+	display: block;
+}
+
+/* Intro */
+
+.intro {
+	background: url('../img/intro-mobile.png') no-repeat center;
+	background-size: cover;
+	height: 560px;
+	padding-top: 170px;
+}
+
+.subtitulo-intro {
+	margin-top: -5px;
+}
+
+.btn-intro {
+	margin-top: 50px;
+}
+
+/* Products */
+
+.products {
+	padding: 60px 0;
+	text-align: center;
+}
+
+.item-products {
+	margin: 0;
+}
+
+.products img {
+	width: 230px;
+	height: 230px;
+}
+
+/* About */
+
+.about {
+	height: 650px;
+	padding: 60px 0;
+}
+
+.titulo-about {
+	font-size: 30px;
+	padding-bottom: 40px;
+}
+
+.about p {
+	font-size: 14px;
+	letter-spacing: 0;
+	line-height: 20px;
+	padding-bottom: 25px;
+}
+
+/* Contact */
+
+.contact {
+	padding: 60px 0;
+}	
+
+.contact .contact-col {
+	text-align: center;
+	padding-left: 0;
+}
+
+.contact .contact-col:last-child {
+	margin: 35px 0 0 0;
+}
+
+.contact-col ul {
+	padding-top: 15px;
+}
+
+.social ul li {
+	margin: 0 10px 0 10px;
+}
+
+/* Map */
+
+.map {
+	background: url('../img/map-mobile.png') no-repeat center;
+	background-size: cover;
+	height: 200px;
+}
+
+}
