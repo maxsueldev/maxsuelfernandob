@@ -6,23 +6,23 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Maxsuel Fernando - Portfólio</title>
 
-	<!-- <link rel="stylesheet" href="css/normalize.css">
+	<!--<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/grid.css"> -->
+	<link rel="stylesheet" href="css/grid.css">-->
 	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-	<!-- <link rel="stylesheet" href="css/style-raw.css?=<?php print time(); ?>">
-	<link rel="stylesheet" href="css/responsivo.css?=<?php print time(); ?>"> -->
+	<!--<link rel="stylesheet" href="css/style-raw.css?=<?php print time(); ?>">
+	<link rel="stylesheet" href="css/responsivo.css?=<?php print time(); ?>">-->
 	
 	<link rel="stylesheet" href="css/style.css">
 	<script src="js/libs/modernizr-custom.js"></script>
 </head>
 <body>
 
-	<section id="intro" class="intro">	
-		<div class="container16 content-intro">
+	<section id="intro" class="intro text-center">	
+		<div class="container16 content-intro text-center">
 			<h1>Maxsuel Fernando</h1>
 			<div class="intro-efect">
-				<h3 class="anim-typewriter">Analista de Sistemas | Web Designer | Programador PHP</h3>
+				<h3 class="anim-typewriter">Analista de Sistemas | Web Designer | Desenvolvedor Front-End</h3>
 			</div>
 			<div class="redes-sociais">
 				<a href="https://www.facebook.com/maxsuelfernandob" target="_blank">
@@ -31,7 +31,7 @@
 				<a href="https://www.linkedin.com/in/maxsuelfernandob" target="_blank">
 					<img src="img/redes-sociais/linkedin-logo.png" alt="linkedin-logo" class="social-logo">
 				</a>
-				<a href="https://github.com/maxsuelfernandob" target="_blank">
+				<a href="https://github.com/maxsueldev" target="_blank">
 					<img src="img/redes-sociais/github-logo.png" alt="github-logo" class="social-logo">
 				</a>
 			</div>
@@ -60,13 +60,13 @@
 			<div class="column13">
 				
 				<h3 class="h3_bold">Maxsuel Fernando</h3>
-				<h3 class="h3_bold">Analista de Sistemas | Web Designer | Programador PHP</h3>
+				<h3 class="h3_bold">Analista de Sistemas | Web Designer | Desenvolvedor Front-End</h3>
 
 				<div class="texto">
-					<p>Graduado em Sistemas de Informação, com maiores habilidades Web Design, Desenvolvimento Web e Suporte Técnico, venho buscando sempre novos conhecimentos na área, pois, tenho interesse em evoluir profissionalmente, com o objetivo de ascensão profissional.</p>
+					<p>Graduado em Sistemas de Informação pelo Centro Universitário CESMAC, sempre fui apaixonado pelo mundo da tecnologia e desenvolvimento na Web. Tenho interesse e dedicação em HTML, CSS, Javascript e alguns de seus frameworks.</p>
 				</div>
 				<div>
-					<h3 class="h3_bold">(82) 99912-7655</h3>
+					<h3 class="h3_bold">(82) 99980-8600</h3>
 					<h3 class="h3_bold">Maceió - AL</h3>
 				</div>
 			</div>
@@ -102,7 +102,6 @@
 			<div class="column3">
 				<img class="bootstrap" src="img/skills/bootstrap.png" alt="Bootstrap" width="60px" height="60px">
 			</div>
-
 			<div class="column4">
 				<img class="angular" src="img/skills/angular.png" alt="Angular" width="54px" height="59px">
 			</div>
@@ -245,7 +244,7 @@
 			<a href="https://www.linkedin.com/in/maxsuelfernandob" target="_blank">
 				<img src="img/redes-sociais/linkedin-logo.png" alt="linkedin-logo" class="social-logo">
 			</a>
-			<a href="https://github.com/maxsuelfernandob" target="_blank">
+			<a href="https://github.com/maxsueldev" target="_blank">
 				<img src="img/redes-sociais/github-logo.png" alt="github-logo" class="social-logo">
 			</a>
 			

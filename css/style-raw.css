@@ -187,55 +187,7 @@ hr.sb {
   }
 }
 
-/**/
-
-/* Intro */
-
-.intro {
-	width: 100%;
-	height: 100%;
-	min-height: 540px;
-	text-align: center;
-	color: #F4F7F6;
-	background: url('../img/intro/intro.png') no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	overflow-x: hidden; 
-	position: relative;
-}
-
-.content-intro {
-  text-align: center;
-	position: relative;
-	top: 26%;
-  padding-bottom: 80px;
-}
-
-.intro-efect {
-  padding-top: 17px;
-}
-
-.content-intro h3 {
-    margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);
-}
-
-/* Animation */
-.anim-typewriter{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
-}
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 27em;}
-}
-@keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
-}
+/* Social logos */
 
 .redes-sociais {
   margin-top: 12px;
@@ -253,6 +205,40 @@ hr.sb {
 	background-color: #092140;
 }
 
+/**/
+
+/* Intro */
+
+.intro {
+  width: 100%;
+  height: 100%;
+	min-height: 540px;
+  color: #F4F7F6;
+	background: url('../img/intro/intro.png') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	overflow-x: hidden; 
+	position: relative;
+}
+
+.content-intro {
+	position: relative;
+	top: 32%;
+  padding-bottom: 80px;
+}
+
+.intro-efect {
+  padding-top: 17px;
+}
+
+.content-intro h3 {
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
 .call-contato {
   color: #F4F7F6;
   font-size: 18px;
@@ -266,6 +252,20 @@ hr.sb {
   outline-color: rgba(255, 255, 255, 0);
   outline-offset: 15px;
   text-shadow: 1px 1px 2px #427388; 
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 30.5em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
 }
 
 /* Sobre */
